@@ -4,7 +4,7 @@
 ## 💻 Features
 <p>✔ Stylish all-glass entrance</p>
 <p>✔ Very professional user interface</p>
-<h2>✔ Has 3D shadows</h2>
+<p>✔ Has 3D shadows</p>
 <p>✔ 💚Beautiful, professional, and relaxing green color scheme.</p>
 
 # ⚙
