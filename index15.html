@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- <link href="/src/style.css" rel="stylesheet"> -->
+
+<link rel="stylesheet" href="style15.css">
+<link rel="icon" href="">
+<title> 15ABAN 1404 </title>
+    </head>
+    <body style="background-color: rgb(127, 144, 119);">
+<br>
+<br>
+<div style="text-align: center;">
+    <!-- <div class="container"> -->
+        <div class="cell is-col-span-2">
+            <form  style="text-align: right;" action="#" onsubmit="formlogin()" class="fm9">
+                 <b>ورود به حساب </b>&nbsp;<button class="btn1">Login</button>
+                 <span style="color: rgb(199, 199, 199);"><h6>برای ادامه، ایمیل و رمز را وارد کنید</h6></span>
+                 <br>
+                 <label style="color: rgb(255, 255, 255);">*ایمیل</label> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+</svg>&nbsp;&nbsp; 
+                 <br>
+                 <input  id="inp_email" name="name" style="color: rgb(22, 56, 2);" placeholder=" you@example.com" class="inp1"   type="email" required maxlength="20">
+                  <span id="s_email" style="color: rgb(149, 9, 9);">  </span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                  <br>
+                 <label  style="color: rgb(255, 255, 255);">*رمز عبور</label>  <svg   xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-key" viewBox="0 0 16 16" >
+  <path d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8m4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5"/>
+  <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+</svg>&nbsp;&nbsp; 
+                 <br>
+                 <input name="name" style="color: rgb(34, 94, 0);" placeholder=" 123456" class="inp1" type="password" required maxlength="15">
+               <input id="inp_pass" style="color: rgb(220, 220, 220);"  type="checkbox"><span style="color: rgb(220, 220, 220);">مرا به خاطر بسپار</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+  <path  d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+</svg>&nbsp;&nbsp;&nbsp; 
+<br>
+<br>
+<div style="text-align: center;">
+<button onclick="vorod()" id="btn_vorod" class="btn2">ورود</button>
+</div>
+<div  style="text-align: center; color: rgb(220, 220, 220);">
+____________________ &nbsp; &nbsp;<span style="font-size: 12px;">یا</span>&nbsp; &nbsp; ___________________
+</div>
+<br>
+<button onclick="google()" id="btn_google" class="btn3"> Google ورود با </button>
+<button onclick="git()" id="btn_git" class="btn4"> GitHub ورود با </button>
+<br>
+<div style="text-align: center;">
+    <span style="color: rgb(220, 220, 220);"> حساب ندارید؟<a href="#"> ثبت نام </a> </span>
+</div>
+              </form>
+             </div>
+          </div>
+        </div>
+    </div>
+</div>
+<script>
+ var Email ;
+ var vorod ;
+Email = document.getElementById("inp_email").Value;
+/*  */
+Email = document.getElementById("inp_email").innerHTML = "";
+ function formlogin(){
+    if(Email = ""){
+    document.getElementById("s_email").innerHTML = "لطفا ایمیل را پر کنید ";
+// return false;
+    }
+ }
+ function vorod(){
+vorod = document.getElementById("btn_vorod").value;
+ alert("ورود  موفق(دمو)");
+ }
+//  function google(){
+// vorod = document.getElementById("btn_google").value;
+//  alert("NO BACKEND!");
+//  }
+//  function git(){
+// vorod = document.getElementById("btn_git").value;
+//  alert("NO BACKEND!");
+//  }
+</script>
+    </body>
+</html>

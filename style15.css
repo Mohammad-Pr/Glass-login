@@ -1,0 +1,111 @@
+html{
+    font-family: 'Segoe UI';
+}
+.fm9{
+    padding: 50px;
+    height: 544px;
+    color: rgb(255, 255, 255);
+    width: 430px;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 20px;
+    /* background-color: rgb(102, 102, 102); */
+    opacity: 111px;
+    box-shadow: 5px 1px 60px ;
+    backdrop-filter: blur(10px);
+}
+.btn1{
+    height: 45px;
+    border: 1px solid rgb(127, 144, 119);
+    border-radius:15px;
+    cursor: text;
+    background-color:rgb(73, 109, 57);
+    color: white;
+    backdrop-filter: blur(10px);
+}
+.inp1{
+    border:1px solid rgb(171, 171, 171);
+    border-radius:15px;
+    cursor: text;
+    width: 320px;
+    box-shadow: 1px 1px 15px rgb(80, 127, 60);
+    height: 50px;
+    opacity:111px;
+    background-color:rgb(127, 144, 119);
+    display: flex;
+    backdrop-filter: blur(10px);
+}
+.inp1:hover{
+    border:1px solid rgb(85, 138, 77);
+
+}
+
+
+
+.bi-eye-fill{
+    cursor: pointer;
+    color: rgb(220, 220, 220);
+}
+.btn2{
+    height: 45px;
+    width: 280px;
+    border: 1px solid rgb(127, 144, 119);
+    border-radius:15px;
+    cursor: pointer;
+    background-color:rgb(73, 109, 57);
+    color: rgb(220, 220, 220);
+    backdrop-filter: blur(10px);
+}
+.btn2:hover{
+background-color: rgb(74, 117, 55);
+    color: rgb(255, 255, 255);
+}
+
+.btn3{
+    height: 45px;
+    width: 160px;
+    border:1px solid rgb(171, 171, 171);
+    border-radius:15px;
+    cursor: pointer;
+    background-color:rgb(127, 144, 119);
+    color: white;
+    backdrop-filter: blur(10px);
+    opacity:111px;
+    /* display: flex; */
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 15px rgb(80, 127, 60);
+    cursor: text;
+    color: rgb(220, 220, 220);
+}
+.btn3:hover{
+background-color: rgb(136, 148, 130);
+    /* color: rgb(255, 255, 255); */
+}
+.btn4{
+    height: 45px;
+    width: 160px;
+    border:1px solid rgb(171, 171, 171);
+    border-radius:15px;
+    cursor: pointer;
+    background-color:rgb(127, 144, 119);
+    color: white;
+    backdrop-filter: blur(10px);
+    opacity:111px;
+    /* display: flex; */
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 15px rgb(80, 127, 60);
+    cursor: text;
+    color: rgb(220, 220, 220);
+}
+.btn4:hover{
+    background-color: rgb(136, 148, 130);
+    /* color: rgb(255, 255, 255); */
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 140, 16);
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(0, 150, 16);
+}
+
